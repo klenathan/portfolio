@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47aead05.css",
+    "main.js": "/static/js/main.e951e3a0.js",
+    "static/js/787.7f320c1d.chunk.js": "/static/js/787.7f320c1d.chunk.js",
+    "static/media/simpeo.jpg": "/static/media/simpeo.e0ec85b8770ac8dd7214.jpg",
+    "static/media/logo.svg": "/static/media/logo.426278726f90c57aa805eb591397948b.svg",
+    "index.html": "/index.html",
+    "main.47aead05.css.map": "/static/css/main.47aead05.css.map",
+    "main.e951e3a0.js.map": "/static/js/main.e951e3a0.js.map",
+    "787.7f320c1d.chunk.js.map": "/static/js/787.7f320c1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47aead05.css",
+    "static/js/main.e951e3a0.js"
+  ]
+}
