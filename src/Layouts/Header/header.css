@@ -5,12 +5,12 @@
 
 .header {
     background: rgb(70,26,134);
-    background: linear-gradient(90deg, rgba(70,26,134,1) 0%, rgba(54,186,255,1) 100%);
+    background: linear-gradient(90deg, rgba(70,26,134,0.5) 0%, rgba(54,186,255,.5) 100%);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    height: 120px;
+    height: 80px;
 }
 
 .header-logo-wrap {
@@ -21,12 +21,12 @@
 }
 
 .navigation-warp {
-    flex: 1;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    margin-right: 5rem;
+    width: 70%;
+    margin-left: 5rem;
 }
 
 .header-logo {

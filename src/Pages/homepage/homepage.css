@@ -1,0 +1,53 @@
+.home-overview {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(73, 73, 73); */
+}
+
+.overview-txt-wrap {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-txt-box {
+    width: 60%;
+    height: 50vh;
+    box-shadow: 0 0 20px 0 gray;
+    border-radius: 2rem;
+}
+
+.overview-txt-box h1 {
+    margin: 2rem;
+    animation: typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(194, 12, 12);
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* letter-spacing: .15em; Adjust as needed */
+}
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: rgb(132, 0, 161); }
+}
+
+.overview-txt-box p {
+    margin: 2rem
+}
+
+.somekindofimg {
+    flex: 1;
+}
