@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
-import logo from './logo.svg';
+// import logo from './logo.svg';
 
 import './App.css';
 
@@ -26,7 +26,7 @@ function App() {
   return (
 
 
-  <Router>
+  <div>
     <Header />
     <Routes>
       <Route exact path="/" element={<Homepage />}/>
@@ -38,7 +38,7 @@ function App() {
 
       <Route path="*" element={<Notfound />}/>
     </Routes>
-  </Router>
+  </div>
 
 
     // <div className="App">
