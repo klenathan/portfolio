@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2c9ef2f9399981babb1c",
+    "revision": "6bb95484772551069493",
     "url": "/portfolio/static/css/main.36c0cad0.chunk.css"
   },
   {
-    "revision": "2c9ef2f9399981babb1c",
-    "url": "/portfolio/static/js/main.2c9ef2f9.chunk.js"
+    "revision": "6bb95484772551069493",
+    "url": "/portfolio/static/js/main.6bb95484.chunk.js"
   },
   {
     "revision": "af08dc77e4e76da41e54",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/simpeo.d055525d.jpg"
   },
   {
-    "revision": "e3c01f28081a8f1328f213803b7e6bb0",
+    "revision": "edb5adb1cbd9c9a4406146b6cf966f17",
     "url": "/portfolio/index.html"
   }
 ];
